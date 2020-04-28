@@ -8,6 +8,11 @@
   2. Creation of Account Nodes
   3. Account Node Mining ***(Bringing Yukon Capital Blockchain To Life)***
   4. Generating a transaction via Ether
+
+### __Important Information__
+  1. Network Name: "yukoncap"
+  2. Network ID: "121"
+  3. Kovan Test Network Address: 0xc241eE3106f5F9021dA70040a7B5aDbC96e385af
   
 ### __Genesis Block Creation__
 
@@ -95,7 +100,6 @@ __**Starting Node2**__
   
  ### Congratulations on Completing your first Transaction!!!  
  
- # Z-Bank is leading the future of financial transactions
   
  
   
