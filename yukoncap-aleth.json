@@ -19,8 +19,8 @@
     "difficultyBoundDivisor": "0x800",
     "durationLimit": "0xd",
     "blockReward": "0x4563918244f40000",
-    "networkID": "0x7",
-    "chainID": "0x7",
+    "networkID": "0x79",
+    "chainID": "0x79",
     "allowFutureBlocks": false
   },
   "genesis": {
@@ -28,7 +28,7 @@
     "difficulty": "0x80000",
     "mixHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
     "author": "0x0000000000000000000000000000000000000000",
-    "timestamp": "0x5ea6fc27",
+    "timestamp": "0x5ea82ab1",
     "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
     "extraData": "0x0000000000000000000000000000000000000000000000000000000000000000",
     "gasLimit": "0x47b760"

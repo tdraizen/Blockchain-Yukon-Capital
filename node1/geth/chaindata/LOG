@@ -1,18 +1,18 @@
-=============== Apr 27, 2020 (CDT) ===============
-17:41:55.348815 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
-17:41:55.361050 db@open opening
-17:41:55.362327 version@stat F·[] S·0B[] Sc·[]
-17:41:55.369859 db@janitor F·2 G·0
-17:41:55.369954 db@open done T·8.80964ms
-17:41:55.380212 db@close closing
-17:41:55.380602 db@close done T·386.628µs
-=============== Apr 27, 2020 (CDT) ===============
-17:42:44.548012 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
-17:42:44.548296 version@stat F·[] S·0B[] Sc·[]
-17:42:44.548333 db@open opening
-17:42:44.548425 journal@recovery F·1
-17:42:44.556135 journal@recovery recovering @1
-17:42:44.567208 memdb@flush created L0@2 N·623 S·50KiB "\x01\x12;..\v\xd5\xf5,v613":"\xfe\x88\xcf..H\xef\xcc,v362"
-17:42:44.574764 version@stat F·[1] S·50KiB[50KiB] Sc·[0.25]
-17:42:44.597804 db@janitor F·3 G·0
-17:42:44.597878 db@open done T·49.524399ms
+=============== Apr 28, 2020 (CDT) ===============
+08:19:09.100084 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+08:19:09.119164 db@open opening
+08:19:09.127390 version@stat F·[] S·0B[] Sc·[]
+08:19:09.134413 db@janitor F·2 G·0
+08:19:09.134785 db@open done T·15.255007ms
+08:19:09.171272 db@close closing
+08:19:09.172247 db@close done T·982.354µs
+=============== Apr 28, 2020 (CDT) ===============
+08:20:00.804069 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+08:20:00.804555 version@stat F·[] S·0B[] Sc·[]
+08:20:00.804618 db@open opening
+08:20:00.804884 journal@recovery F·1
+08:20:00.815552 journal@recovery recovering @1
+08:20:00.826612 memdb@flush created L0@2 N·623 S·50KiB "\x01\x12;..\v\xd5\xf5,v613":"\xfe\x88\xcf..H\xef\xcc,v362"
+08:20:00.837981 version@stat F·[1] S·50KiB[50KiB] Sc·[0.25]
+08:20:00.858525 db@janitor F·3 G·0
+08:20:00.858597 db@open done T·53.944427ms
