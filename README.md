@@ -1,6 +1,6 @@
-# ZBank - "Financial Engineering Our Way Into The Future"
-![](bank.jpg)
+## ZBank - "Financial Engineering Our Way Into The Future"
+![bank](bank.jpg)
 
 
-# ZBank - Genesis Block Creation
-![](Screenshots/Yukon%20Genesis%20Creation.png)
+## ZBank - Genesis Block Creation
+![genesis](Screenshots/Genesis_block_yukoncap.png)
