@@ -3,44 +3,44 @@
 
 #### Setup Guide for Z-Bank Blockchain Connection 
 
-##### __*Guidelines for BlockChain Creation*__
+#### _*Guidelines for BlockChain Creation*_
   1. Generate Genesis Block Creation
   2. Creation of Account Nodes
   3. Account Node Mining ***(Bringing Yukon Capital Blockchain To Life)***
   4. Generating a transaction via Ether
 
-### __Important Information__
+#### _Important Information_
   1. Network Name: "yukoncap"
   2. Network ID: "121"
   3. Kovan Test Network Address: 0xc241eE3106f5F9021dA70040a7B5aDbC96e385af
   
-### __Genesis Block Creation__
+#### _Genesis Block Creation_
 
 The ***Genesis*** block is the first block in any blockchain-based protocol. It is the foundation on which additional blocks are sequentially added to form a chain of blocks, resulting in the term, blockchain being coined.  Below is Z-Bank's genesis block creation coined ***Yukon Capital*** after our asset managment firm. 
 
 ![genesis](Screenshots/Genesis_block_yukoncap.png)
 
 
-### __Creation of Account Nodes__
+#### _Creation of Account Nodes_
 The account ***Nodes*** form the infrastructure of a blockchain.  All nodes on a blockchain are connected to each other.  In this case we have created two nodes for our firm.  ***Node1*** and ***Node2***.  ***For reference only***, Nodes are created and then must be initiated by the following steps:
-__**Node Creation**__
+_**Node Creation**_
   1. ./geth account new --datadir node1
   2. ./geth account new --datadir node2
-__**Node Initiation**__
+_**Node Initiation**_
   1. ./geth init yournetworkname.json --datadir node1
   2. ./geth init yournetworkname.json --datadir node2
   
   ![nodes](Screenshots/Node_creation.png)
   
   
-### __Bringing Yukon Capital Blockchain To Life__
+#### _Bringing Yukon Capital Blockchain To Life_
   * Node1 will be a full node that is also mining
   * Node2 will be a full node that exposes an RPC port, allowing you to talk to Node1 and **MyCrypto**
   
-#### __Team Instructions for Initiating The Nodes__
+#### _Team Instructions for Initiating The Nodes_
 
   1. Open a terminal window to initiate node1.  **Note** Navigate to the *Blockchain-Yukon-Capital* Directory before initiating.
-__**Starting Node1**__
+_**Starting Node1**_
 
   2. ./geth --datadir node1 --mine --minerthreads 1 **Run This Code** (You should see node committing new mining work.)
       * The **mine** flag tells the node to mine new blocks
@@ -48,7 +48,7 @@ __**Starting Node1**__
 
 ![node1initiate](Screenshots/Node1_mining.png)
 
-__**Starting Node2**__
+_**Starting Node2**_
 
   3. Open a new terminal window to initiate node2. **Note** Navigate to the *Blockchain-Yukon-Capital* Directory before initiating.
   
@@ -62,7 +62,7 @@ __**Starting Node2**__
 
 ![node2initiate](Screenshots/Node2_initiate.png)
 
-### Generating A Transaction
+#### _Generating A Transaction_
 
   1. Open up MyCrypto to get the private key of the ETH (Be Sure the Kovan network is selected)
   2. ETH Address: **0xc241eE3106f5F9021dA70040a7B5aDbC96e385af**. *Select 2 which is our address*
